@@ -288,78 +288,7 @@ const initTokenSelect: DataTokensSelect = {
 const integratorId = process.env.NEXT_PUBLIC_INTEGRATOR_ID
 const addressNativeToken = '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE'
 
-import icon_eth from '@/images/bridge/Ether.svg'
-import icon_bnb from '@/images/bridge/BNB.svg'
-import icon_fantom from '@/images/bridge/Fantom.svg'
-import icon_polygon from '@/images/bridge/Polygon.svg'
-import icon_base from '@/images/bridge/Op.svg'
-import icon_avax from '@/images/bridge/AVAX.svg'
-import icon_okx from '@/images/bridge/okx.svg'
-export const ListTrxBridge = [
-  {
-    fromChainName: 'Ethereum',
-    toChainName: 'BNB Chain',
-    fromIconToken: icon_eth,
-    toIconToken: icon_bnb,
-    amountToken: 100
-  },
-  {
-    fromChainName: 'Fantom',
-    toChainName: 'Base',
-    fromIconToken: icon_fantom,
-    toIconToken: icon_base,
-    amountToken: 500
-  },
-  {
-    fromChainName: 'Ethereum',
-    toChainName: 'OKX',
-    fromIconToken: icon_eth,
-    toIconToken: icon_okx,
-    amountToken: 200
-  },
-  {
-    fromChainName: 'Avalanche',
-    toChainName: 'BNB Chain',
-    fromIconToken: icon_avax,
-    toIconToken: icon_bnb,
-    amountToken: 100
-  },
-  {
-    fromChainName: 'Ethereum',
-    toChainName: 'Polygon',
-    fromIconToken: icon_eth,
-    toIconToken: icon_polygon,
-    amountToken: 100
-  },
-  {
-    fromChainName: 'Polygon',
-    toChainName: 'BNB Chain',
-    fromIconToken: icon_polygon,
-    toIconToken: icon_bnb,
-    amountToken: 100
-  },
-  {
-    fromChainName: 'Base',
-    toChainName: 'BNB Chain',
-    fromIconToken: icon_base,
-    toIconToken: icon_bnb,
-    amountToken: 100
-  },
-  {
-    fromChainName: 'Ethereum',
-    toChainName: 'BNB Chain',
-    fromIconToken: icon_eth,
-    toIconToken: icon_bnb,
-    amountToken: 100
-  },
-  {
-    fromChainName: 'Ethereum',
-    toChainName: 'BNB Chain',
-    fromIconToken: icon_eth,
-    toIconToken: icon_bnb,
-    amountToken: 600
-  }
-]
+
 
 const wagmiEvmChains = [
   mainnet,
